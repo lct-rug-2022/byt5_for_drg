@@ -1,4 +1,4 @@
-# ByT5 for DRT semantic parsing
+# ByT5 for multilingual DRT semantic parsing
 
 Authors: Ekaterina Garanina, Daragh Meehan, Qiankun Zheng
 
