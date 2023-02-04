@@ -80,7 +80,7 @@ def main(
         batch_size: int = typer.Option(8, help='Batch size'),
         include_prefix: bool = typer.Option(False, is_flag=True, help='Whether to put language-specific task prefix'),
 ):
-    model_name = f'clean_{base_model.rsplit("/", 1)[-1]}_{learning_rate}lr_{max_epochs}epochs'
+    model_name = f'{base_model.rsplit("/", 1)[-1]}_{learning_rate}lr_{max_epochs}epochs'
     if include_prefix:
         model_name += '_prefix'
 
