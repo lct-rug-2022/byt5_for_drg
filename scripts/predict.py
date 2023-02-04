@@ -13,7 +13,7 @@ from transformers import (
     AutoModelForSeq2SeqLM, AutoTokenizer
 )
 
-ROOT_FOLDER = Path(__file__).parent.parent.parent
+ROOT_FOLDER = Path(__file__).parent.parent
 sys.path.append(str(ROOT_FOLDER))
 sys.path.append(str(ROOT_FOLDER / 'ud_boxer_repo'))
 

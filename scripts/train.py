@@ -31,7 +31,7 @@ torch.backends.cudnn.deterministic = True
 
 app = typer.Typer(add_completion=False)
 
-ROOT_FOLDER = Path(__file__).parent.parent.parent
+ROOT_FOLDER = Path(__file__).parent.parent
 
 DEV_METRIC = evaluate.load("chrf")
 

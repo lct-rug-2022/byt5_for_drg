@@ -8,7 +8,7 @@ from collections import defaultdict
 from datasets import Dataset, DatasetDict
 from transformers import DataCollatorForSeq2Seq
 
-ROOT_FOLDER = Path(__file__).parent.parent.parent
+ROOT_FOLDER = Path(__file__).parent.parent
 sys.path.append(str(ROOT_FOLDER))
 sys.path.append(str(ROOT_FOLDER / 'ud_boxer_repo'))
 
