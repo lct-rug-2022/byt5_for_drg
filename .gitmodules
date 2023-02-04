@@ -1,0 +1,3 @@
+[submodule "ud_boxer_repo"]
+	path = ud_boxer_repo
+	url = https://github.com/WPoelman/ud-boxer.git
